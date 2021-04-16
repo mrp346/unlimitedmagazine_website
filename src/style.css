@@ -1,0 +1,295 @@
+
+.untitled{ 
+width: 100%;
+  padding: 100px 0;
+  float: left;
+  background-color: #ffffff;
+} 
+body{
+  color:#ffffff;
+}
+
+h2{
+  color:#ffffff;  
+}
+h3{
+ color:#ffffff;  
+}
+
+nav {
+  
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+nav li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size:.8em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+display: inline-block;
+  margin-left:20px; 
+  cursor: pointer;
+} 
+
+nav li a:link{
+  color: #091c5a; 
+    text-decoration: none;
+}
+
+nav li a:visited{
+  color: #091c5a; 
+    text-decoration: none;
+} 
+
+nav li a:hover{
+  color: #ff6600; 
+    text-decoration: none;
+}
+
+nav li a:active{
+  color: #ff6600; 
+    text-decoration: none;
+} 
+
+/* Headroom */
+
+.headroom{
+  transition: transform (200ms) linear;
+}
+
+.headroom--pinned{
+  transform: translateY(0%);
+}
+
+.headroom--unpinned{
+  transform: translateY(-100%);
+}
+
+header{
+  width:100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+  padding:25px 0 7px 0;
+  background-color:#A8A8A8; 
+} 
+.branding{
+  background: url(https://assets.codepen.io/3529133/unlimited_web_logo_white_rightsize.svg) no-repeat;
+ width: 110px;
+ height: 110px;
+  float: left;
+  margin-bottom:0px;
+  margin-top:0px;
+  padding-bottom: 0px; 
+  text-indent: -999em;/*  text-indent: -999em;  */
+ 
+}
+
+.hero-slide-show{
+  margin-top: 57px;  
+}
+    /* padding: 1px 0 1px 0; */
+
+
+.biography{
+  width: 100%; 
+  background-color:#AAAAAA;
+  text-align: center;
+  padding: 100px 0;
+  float: left;
+}
+
+.biography img{ 
+	width: 400px;
+	height: 272px;
+}
+
+.timeline{ 
+width: 100%;
+  padding: 100px 0;
+  float: left;
+  background-color: #7A96A2;
+}
+
+.about{
+  width:100%;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact{
+   background-color:#4D436B;
+  text-align: center;
+   background-color: #; 
+}
+
+.branding a:link{
+  color:#56627A;
+  text-decoration:none;
+}
+
+
+.gallery {
+  width:100%;
+  padding: 100px 0;
+  background-color: #7A96A2;
+  float: left;
+} 
+
+.gallery-title{
+  color:#ffffff;
+  text-align:center;
+}
+
+.gallery-box{
+  background-color: rgba(225, 225,225, 0.5);
+  border-radius: 5px;
+  text-align: center; 
+} 
+
+.fa-camera{
+  margin: 86px 0;
+  color: #00ccff;
+  font-size: 44px;
+}
+
+/* Adding padding: 20px to img will effect hero slide show  */  
+
+img{          
+  width:300px;
+}
+
+.row {
+  margin-bottom: 20px;
+  float:left;
+} 
+
+
+.influence{
+  width: 100%; 
+  background-color:#AAAAAA;
+  text-align: center;
+  padding: 100px 0;
+  float: left;
+}
+
+.influence img{ 
+	width: 300px;
+	height: 300px; 
+}
+
+
+
+.artist-small{ 
+width: 100%;
+  padding: 100px 0;  
+  float: left;
+  background-color: #AAAAAA;
+  text-align:center;
+}
+
+.products{ 
+width: 100%;
+  padding: 100px 0;
+  float: left;
+  background-color: #AAAAAA;
+  margin-top:1px; 
+}
+
+.carousel-cell{
+  width:30%;
+  height:420px;
+  margin-right: 15px;
+  background-color: #AAAAAA;
+  counter-increment: carousel-cell;
+  text-align: center;
+  float: left; 
+}
+
+.products img{
+  width:300px;
+  padding: 20px;
+}
+
+
+.performance{
+  width: 100% ;
+  text-align: center;
+ background-color:#7A96A2;/* background-repeat: repeat-y;  */
+  padding: 100px 10px 10px 10px;
+  float: left; 
+}
+
+.contact{
+	width: 100%;
+	padding: 100px 0;
+  float: left;
+background-image: url("https://assets.codepen.io/3529133/Background_Blur.png");
+}
+
+
+.contact-form input[ type="text"],
+.contact-form input[ type="email"],
+.contact-form textarea,
+.contact-form textarea,
+.contact-form select{
+	width: 460px;
+	height: 45px;
+	margin-bottom: 25px;
+	padding: 5px 5px 5px 10px;
+	border: 1px solid #4D436B;
+	color:#4D436B; 
+	font-weight:100%;
+	
+}
+
+.contact-form input[ type="phone number"],
+.contact-form textarea{
+	width: 940px;
+  height: 200px;  
+} 
+
+.contact-form textarea{
+ height: 200px;
+ width: 100%; 
+}
+.city{
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+/* footer */
+
+footer {
+	width:100%;
+	padding: 100px 0;
+  float: left;
+	text-align: center;
+	background-color: #AAAAAA; 
+}
+
+
+footer a:link{
+	color:#ffffff;
+	text-decoration: none; 
+}
+
+footer a:visited{
+	color:#959595;
+	text-decoration: none; 
+}
+
+footer a:hover{
+	color:#ffffff;
+	text-decoration: none; 
+}
+footer a:active{
+	color:#ffffff;
+	text-decoration: none; 
+} 
